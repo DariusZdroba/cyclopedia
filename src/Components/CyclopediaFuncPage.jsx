@@ -2,7 +2,7 @@ import React from "react";
 import Instructor from "./Instructor";
 import { getRandomUser } from "../Utility/api";
 
-class CyclOPediaClassPage extends React.Component {
+class CyclopediaFuncPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = JSON.parse(localStorage.getItem("cylcopediaState")) || {
@@ -156,4 +156,4 @@ class CyclOPediaClassPage extends React.Component {
   }
 }
 
-export default CyclOPediaClassPage;
+export default CyclopediaFuncPage;
